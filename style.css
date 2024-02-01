@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: white;
+    padding: 20px;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(233, 148, 155, 0.29735644257703087) 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(174,238,236);
+background: radial-gradient(circle, rgba(174,238,236,1) 0%, rgba(233,148,155,0.29735644257703087) 100%);
+}
